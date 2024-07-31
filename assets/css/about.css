@@ -4,7 +4,7 @@
     padding: 0;
   }
   body {
-    font-family: 'Poppins', 'Ubuntu', sans-serif;
+    font-family: 'Mulish', 'Ubuntu', sans-serif;
   }
   ul {
     list-style: none;
@@ -190,6 +190,13 @@
       color: #0c005a
   }
   
+  @media only screen and (max-width: 990px) {
+    blockquote.blockstyle,
+    blockquote.style2 {
+      font-size: 16px;
+    }
+    
+  }
   /* bod and team member */
   
     
@@ -213,6 +220,7 @@
       box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
       transition: 0.3s;
       transition: ease-in-out 0.4s;
+      border: 2px solid aliceblue;
       border-radius: 5px;
     }
     
@@ -243,7 +251,13 @@
     }
     
     .our-values .card:hover .card-body {
-      background: #0066ff;
+      background: #0288fdaf;
+      /* background: #5cc5ef1f; */
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 6px;
+      /* padding: 1rem; */
     }
     
     .our-values .card:hover .read-more a,
@@ -891,11 +905,12 @@
   .our-services {
       margin-top: 75px;
       padding-bottom: 30px;
-      padding: 0 60px;
+      padding: 10px 60px;
       min-height: 198px;
       text-align: center;
       border-radius: 10px;
-      background-color: #fff;
+      background-color: transparent;
+      border: 2px solid aliceblue;
       transition: all .4s ease-in-out;
       box-shadow: 0 0 25px 0 rgba(20,27,202,.17);
   }
@@ -917,7 +932,7 @@
     background-image: linear-gradient(-45deg, #0a2270 0%, #051445 100%);
   }
   .back{
-    background-color: #9aa4fa5c;
+    /* background-color: #9aa4fa5c; */
   }
 
 
@@ -973,8 +988,8 @@
     }
     
 .container{
-  margin-bottom: 50px;
-  margin-top: 50px;
+  /* margin-bottom: 50px;
+  margin-top: 50px; */
 }
     .our-team .social li a{
         display: block;

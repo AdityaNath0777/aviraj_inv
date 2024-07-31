@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 800;
   src: local("GOOD BRUSH Regular"),
-    url("./assets/fonts/Good\ Brush.woff") format("woff");
+    url("../fonts/Good\ Brush.woff") format("woff");
 }
 .my-brush {
   font-family: "GOOD BRUSH";
